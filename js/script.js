@@ -100,5 +100,8 @@ function closeModal() {
   modal.classList.add("hidden");
 }
 
+document.getElementById("btn-history").onclick = () => {
+  alert("funcionou");
+};
 // inicial
 render(db[0]);
