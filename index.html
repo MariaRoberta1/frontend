@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Astronomia do Dia</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- JS (defer resolve metade dos problemas da humanidade) -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header>
+  <h1>🌌 Astronomia do Dia</h1>
+</header>
+
+<nav class="navbar">
+  <input type="date" id="search">
+
+  <button id="btn-history">Histórico</button>
+  <button id="btn-ai">IA Tradicional</button>
+  <button id="btn-ai-gen">IA Generativa</button>
+</nav>
+
+<main class="container">
+
+  <section class="left">
+    <div id="media"></div>
+
+    <h2 id="title"></h2>
+
+    <p><strong>Data:</strong> <span id="date"></span></p>
+
+    <p id="desc"></p>
+  </section>
+
+  <aside class="right">
+    <div class="card" id="info"></div>
+    <div class="card" id="fact"></div>
+  </aside>
+
+</main>
+
+<div id="modal" class="modal hidden"></div>
+
+</body>
+</html>
